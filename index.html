@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqila Habib | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#home"><span>Aqila</span> Habib</a>
+                </div>
+                <div class="list-darkmode-menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <label class="mode">
+                        <input type="checkbox" id="darkModeButton" />
+                        <i class="fa-solid fa-sun"></i>
+                        <i class="fa-solid fa-moon"></i>
+                    </label>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="container">
+            <div class="home-info">
+                <div class="left">
+                    <h1>Hello, I'm</h1>
+                    <h1>Aqila Habib</h1>
+                    <h4>and I am a <span class="multiple"></span></h4>
+                    
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/aqila-habib-667122248/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.facebook.com/aliza.zahra.165" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://github.com/Aqila-Habib" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+
+                    <div class="btn">
+    <a href="{{ url_for('static', filename='Resume_Aqila_Habib.pdf') }}" download="Resume_Aqila_Habib.pdf">
+        <button type="button">Download CV</button>
+    </a>
+</div>
+                </div>
+
+                <div class="right">
+                    <div class="profile">
+                        <img src="Snapchat-1755740904.jpg" alt="Aqila Habib Profile Picture">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="heading">My <span>Education</span></h2>
+            <div class="education-row">
+                <div class="education-column">
+                    <h3 class="title">Academic Journey</h3>
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fa-solid fa-calendar-days"></i> Current</div>
+                                <h3>American University of Afghanistan</h3>
+                                <p>Currently studying Computer Science at the Doha, Qatar campus.</p>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fa-solid fa-calendar-days"></i> High School</div>
+                                <h3>Aryana High School</h3>
+                                <p>Refugee school for Afghans located in Quetta, Pakistan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-column">
+                    <h3 class="title">Professional Development</h3>
+                    <div class="education-box">
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fa-solid fa-calendar-days"></i> Languages</div>
+                                <h3>Pearl Institute</h3>
+                                <p>Completed English language courses at the Pearl Institute of Management and IT.</p>
+                            </div>
+                        </div>
+                        <div class="education-content">
+                            <div class="content">
+                                <div class="year"><i class="fa-solid fa-calendar-days"></i> Technical</div>
+                                <h3>Computer & IT Courses</h3>
+                                <p>Completed training in Basic Programming, Hardware, Microsoft Office, and HTML.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="heading">University <span>Projects</span></h2>
+            <div class="projects-container">
+                <div class="project-box">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>Senior Year Project</h3>
+                    <p>GSRA Collaboration Tool: A Flask-based platform for research assistants and study groups.</p>
+                    <a href="https://github.com/Aqila-Habib/Senior_Year_Project" target="_blank" class="btn-project">View Repository</a>
+                </div>
+
+                <div class="project-box">
+                    <i class="fa-solid fa-hospital"></i>
+                    <h3>Hospital Management</h3>
+                    <p>A system designed to manage medical records and hospital workflows efficiently.</p>
+                    <a href="https://github.com/Aqila-Habib/Hospital_Management_System" target="_blank" class="btn-project">View Repository</a>
+                </div>
+
+                <div class="project-box">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h3>Discrete Distribution</h3>
+                    <p>Simulating and solving discrete distribution problems using computational methods.</p>
+                    <a href="https://github.com/Aqila-Habib/Simulating_Discrete_Distribution_Project_Problems" target="_blank" class="btn-project">View Repository</a>
+                </div>
+
+                <div class="project-box">
+                    <i class="fa-solid fa-file-magnifying-glass"></i>
+                    <h3>Text Mining</h3>
+                    <p>Analyzing and extracting meaningful information from unstructured text data.</p>
+                    <a href="https://github.com/Aqila-Habib/Text_Mining_Project" target="_blank" class="btn-project">View Repository</a>
+                </div>
+
+                <div class="project-box">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <h3>Data Visualization</h3>
+                    <p>Creating interactive and informative visual representations of complex datasets.</p>
+                    <a href="https://github.com/Aqila-Habib/Data_Visualization_Project" target="_blank" class="btn-project">View Repository</a>
+                </div>
+
+                <div class="project-box">
+                    <i class="fa-solid fa-mountain-sun"></i>
+                    <h3>Unseen Afghanistan</h3>
+                    <p>A specialized project highlighting unique aspects and data regarding Afghanistan.</p>
+                    <a href="https://github.com/Aqila-Habib/Unseen_Afghanistan" target="_blank" class="btn-project">View Repository</a>
+                </div>
+
+                <div class="project-box">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h3>Business Proposal Plan</h3>
+                    <p>A comprehensive journey and plan for a strategic business proposal.</p>
+                    <a href="https://github.com/Aqila-Habib/A-Journey-to-Buisness-proposal-plan" target="_blank" class="btn-project">View Repository</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+    <div class="container">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        
+        <div class="contact-container">
+            <div class="content"> 
+                <form id="contact-form">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Full Name" required>
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <input type="text" id="subject" placeholder="Email Subject">
+                    <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                    
+                    <div class="btn">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
