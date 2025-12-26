@@ -13,21 +13,21 @@ html {
 /* --- THEME VARIABLES --- */
 :root {
     --text-color: #ffffff;
-    --color: #f52cf9; /* Pink Accent */
-    --big-color: #1c1c1d; /* Dark Background */
-    --first: #ffffff; /* White Font */
+    --color: #f52cf9; 
+    --big-color: #1c1c1d;
+    --first: #ffffff; 
     --bg-color: var(--big-color);
-    --card-bg: rgba(255, 255, 255, 0.05); /* Subtle dark box */
+    --card-bg: rgba(255, 255, 255, 0.05); 
     --card-border: var(--color);
 }
 
 /* --- LIGHT MODE COLORS --- */
 body.dark-mode {
     --text-color: #222;
-    --bg-color: #f2f2f2; /* Light Background */
-    --first: #222; /* Dark Font */
-    --card-bg: #ffffff; /* Solid White box */
-    --card-border: #dcdcdc; /* Subtle grey border for light mode */
+    --bg-color: #f2f2f2; 
+    --first: #222; 
+    --card-bg: #ffffff; 
+    --card-border: #dcdcdc; 
 }
 
 body {
@@ -350,3 +350,4 @@ header nav .logo span { color: var(--color); }
     margin-top: 1rem;
 
 }
+
