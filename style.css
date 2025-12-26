@@ -1,4 +1,4 @@
-/* --- GLOBAL STYLES & SMOOTH SCROLL --- */
+
 html {
     scroll-behavior: smooth;
 }
@@ -98,10 +98,23 @@ header nav .logo span { color: var(--color); }
     flex-wrap: wrap;
 }
 
-.home-info .left { flex: 1; min-width: 300px; }
-.home-info .left h1:nth-of-type(2) { font-size: 4.5rem; color: var(--first); margin: 10px 0; }
-.home-info .left h4 { color: var(--first); font-size: 2.2rem; margin-bottom: 1.5rem; }
-.home-info .left h4 span { color: var(--color); }
+.home-info .left { 
+    flex: 1; 
+    min-width: 300px; 
+}
+.home-info .left h1:nth-of-type(2) { 
+    font-size: 4.5rem;
+    color: var(--first); 
+    margin: 10px 0; 
+}
+.home-info .left h4 { 
+    color: var(--first); 
+    font-size: 2.2rem; 
+    margin-bottom: 1.5rem; 
+}
+.home-info .left h4 span {
+    color: var(--color); 
+}
 
 .right .profile img {
     width: 100%;
@@ -138,17 +151,31 @@ header nav .logo span { color: var(--color); }
 .heading span { color: var(--color); }
 
 /* --- EDUCATION SECTION --- */
-.education { padding: 100px 0; }
-.education-row { display: flex; flex-wrap: wrap; gap: 3rem; }
-.education-column { flex: 1 1 400px; }
+.education { 
+    padding: 100px 0; 
+}
+.education-row { 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 3rem; 
+}
+.education-column { 
+    flex: 1 1 400px; 
+}
 .education-column .title {
     font-size: 2rem;
     margin-bottom: 2rem;
     color: var(--first);
 }
 
-.education-box { border-left: 2px solid var(--color); padding-left: 25px; }
-.education-content { position: relative; margin-bottom: 2.5rem; }
+.education-box { 
+    border-left: 2px solid var(--color);
+    padding-left: 25px;
+}
+.education-content { 
+    position: relative; 
+    margin-bottom: 2.5rem;
+                   }
 
 .education-content::before {
     content: '';
@@ -162,9 +189,20 @@ header nav .logo span { color: var(--color); }
     z-index: 1;
 }
 
-.content h3 { color: var(--first); margin-bottom: 10px; }
-.content p { color: var(--first); font-size: 0.95rem; }
-.content .year { color: var(--color); font-weight: bold; display: block; margin-bottom: 8px; }
+.content h3 { 
+    color: var(--first); 
+    margin-bottom: 10px; 
+}
+.content p { 
+    color: var(--first); 
+    font-size: 0.95rem; 
+}
+.content .year { 
+    color: var(--color); 
+    font-weight: bold; 
+    display: block; 
+    margin-bottom: 8px; 
+}
 
 /* --- PROJECTS SECTION --- */
 .projects { padding: 100px 0; }
@@ -184,8 +222,15 @@ header nav .logo span { color: var(--color); }
     margin-bottom: 1.5rem;
 }
 
-.project-box h3 { color: var(--first); margin-bottom: 1rem; }
-.project-box p { color: var(--first); font-size: 0.9rem; margin-bottom: 1.5rem; }
+.project-box h3 { 
+    color: var(--first); 
+    margin-bottom: 1rem;
+}
+.project-box p { 
+    color: var(--first); 
+    font-size: 0.9rem; 
+    margin-bottom: 1.5rem; 
+}
 
 .btn-project {
     display: inline-block;
@@ -284,7 +329,7 @@ header nav .logo span { color: var(--color); }
     padding: 1.2rem;
     font-size: 1rem;
     color: var(--first);
-    background: rgba(255, 255, 255, 0.05); /* Match card style */
+    background: rgba(255, 255, 255, 0.05); 
     border: 1px solid var(--card-border);
     border-radius: 8px;
     outline: none;
@@ -303,4 +348,5 @@ header nav .logo span { color: var(--color); }
 .contact-container .btn {
     text-align: center;
     margin-top: 1rem;
+
 }
